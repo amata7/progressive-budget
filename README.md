@@ -1,71 +1,27 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Progressive Budget
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+Every good README has a descritpion of what goal the project accomplishes. The following section describes what this project does:
 
-Offline Functionality:
+    This project allows a user to keep track of all their expenses by tracking additions and subtractions to a data table.
 
-- Enter deposits offline
+## Table of Contents
 
-- Enter expenses offline
+[Installation](#install) | [Usage](#usage)
 
-When brought back online:
+## Install
 
-- Offline entries should be added to tracker.
+Sometimes the steps to get a project working can be confusing so it is important to give instructions on how to install your project. The following section describes this process:
 
-## User Story
+    After cloning the project, you can run 'npm i' to download the required packages.
 
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+## Usage
 
-## Business Context
+Since there could be several ways to input information into a project, it is important to state how it should be used. The following section describes how to use this project:
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+    After installing the required packages, you will need to run 'npm start' in order to start the server. Then you can open the app in the browser and begin putting in expenses or additions to the budget.
 
-## Acceptance Criteria
+## Other Information
 
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
----
-
-## Commit Early and Often
-
-- One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-- Follow these guidelines for committing:
-
-  - Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  - Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  - Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  - Test your application before you commit to ensure functionality at every step in the development process
-
-- We would like you to have well over 200 commits by graduation, so commit early and often!
-
-- Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-- You are required to submit the following:
-
-  - the URL to the deployed application
-
-  - the URL to the Github repository
-
----
-
-## Hint
-
-- In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-- Use [Google](https://www.google.com) or another search engine to research this topic.
+The Github profile of the person who created this project is : https://github.com/amata7
